@@ -1,3 +1,5 @@
+int i =0;
+
 class weatherModel {
   String name;
   String region;
@@ -11,7 +13,10 @@ class weatherModel {
   int cloud;
   String sunrise;
   String sunset;
-
+  List hour;
+  String time;
+  double temp;
+  String icon1;
 
   weatherModel ({
     required this.name,
@@ -26,6 +31,10 @@ class weatherModel {
     required this.cloud,
     required this.sunrise,
     required this.sunset,
+    required this.hour,
+    required this.time,
+    required this.temp,
+    required this.icon1
   });
   factory weatherModel.fromMap({required Map data}) {
     return weatherModel(
@@ -41,6 +50,10 @@ class weatherModel {
       cloud: data['current']['cloud'],
       sunrise: data['forecast']['forecastday'][0]['astro']['sunrise'],
       sunset: data['forecast']['forecastday'][0]['astro']['sunset'],
+      hour: data['forecast']['forecastday'][i]['hour'],
+      time: data['forecast']['forecastday'][i]['hour'][i]['time'],
+      temp: data['forecast']['forecastday'][i]['hour'][i]['temp_c'],
+      icon1: data['forecast']['forecastday'][i]['hour'][1]['condition']['icon'],
     );
   }
 }

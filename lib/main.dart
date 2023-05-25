@@ -3,12 +3,11 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:weather_app_1/utils/apptheme.dart';
 import 'package:weather_app_1/views/screens/homepage.dart';
-
+import 'package:weather_app_1/views/screens/splash_screen.dart';
 import 'controller/provider/theme_provider.dart';
 import 'controller/weather_provider.dart';
 import 'models/Connectivity_Model.dart';
 import 'models/theme_model.dart';
-
 
 void main()async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,9 +33,11 @@ void main()async {
                 ? ThemeMode.light
                 : ThemeMode.dark,
             debugShowCheckedModeBanner: false,
+            initialRoute: 'intro_page',
             routes: {
               //'/': (context) => SplashScreen(),
               '/': (context) => homepage(),
+              'intro_page': (context) => intro_page(),
             },
           );
         },
