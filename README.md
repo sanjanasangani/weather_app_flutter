@@ -2,9 +2,13 @@
 
 A new Flutter project.
 
-<img align="left" src="https://github.com/sanjanasangani/weather_app_flutter/assets/131368083/657dffc6-2d7b-4c4c-bbdb-db25dc183ca5" width="220px">
-<img align="left" src="https://github.com/sanjanasangani/weather_app_flutter/assets/131368083/3c6ac003-6a3f-406b-b7c9-e8a55283fc78"width="220px">
-<img src="https://github.com/sanjanasangani/weather_app_flutter/assets/131368083/350a6518-213f-4a84-9fa2-f7b0177d6ffd"width="220px">
+<img align="left" src="https://github.com/sanjanasangani/weather_app_flutter/assets/131368083/91818ef8-888e-4c12-bea7-fdaf9c08823a" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/weather_app_flutter/assets/131368083/c6ec8653-b13c-44d0-9dee-c2e281b94f2f"width="220px">
+<img src="https://github.com/sanjanasangani/weather_app_flutter/assets/131368083/9198b3d4-e49b-433a-acb4-36fbf2c04e12"width="220px">
+
+<img align="left" src="https://github.com/sanjanasangani/weather_app_flutter/assets/131368083/abb34cf2-79d8-47e5-8daf-836d93948aab" width="220px">
+<img align="left" src="https://github.com/sanjanasangani/weather_app_flutter/assets/131368083/2fa85f28-de91-4147-b0ed-789555f827d7"width="220px">
+<img src="https://github.com/sanjanasangani/weather_app_flutter/assets/131368083/6e7edf5f-fc7e-4fe2-8580-f9c665bf8c5b"width="220px">
 
 ## Getting Started
 
